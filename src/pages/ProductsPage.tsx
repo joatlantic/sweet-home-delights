@@ -3,6 +3,15 @@ import { Card, CardContent } from "@/components/ui/card";
 import baklavaImage from "@/assets/baklava.jpg";
 import kunafaImage from "@/assets/kunafa.jpg";
 import maamoulImage from "@/assets/maamoul.jpg";
+import baklavaWalnutImage from "@/assets/baklava-walnut.jpg";
+import kunafaCreamImage from "@/assets/kunafa-cream.jpg";
+import maamoulPistachioImage from "@/assets/maamoul-pistachio.jpg";
+import baklavaCashewImage from "@/assets/baklava-cashew.jpg";
+import kunafaMangoImage from "@/assets/kunafa-mango.jpg";
+import maamoulWalnutImage from "@/assets/maamoul-walnut.jpg";
+import baklavaAlmondImage from "@/assets/baklava-almond.jpg";
+import kunafaChocolateImage from "@/assets/kunafa-chocolate.jpg";
+import maamoulSesameImage from "@/assets/maamoul-sesame.jpg";
 
 const products = [
   {
@@ -27,55 +36,55 @@ const products = [
     id: 4,
     name: "بقلاوة بالجوز",
     description: "بقلاوة مقرمشة محشوة بالجوز الطازج والقطر المحلى",
-    image: baklavaImage,
+    image: baklavaWalnutImage,
   },
   {
     id: 5,
     name: "كنافة بالقشطة",
     description: "كنافة ناعمة مع قشطة طازجة ومكسرات مشكلة",
-    image: kunafaImage,
+    image: kunafaCreamImage,
   },
   {
     id: 6,
     name: "معمول بالفستق",
     description: "معمول فاخر محشو بالفستق الحلبي الأصلي",
-    image: maamoulImage,
+    image: maamoulPistachioImage,
   },
   {
     id: 7,
     name: "بقلاوة بالكاجو",
     description: "بقلاوة مميزة محشوة بالكاجو والعسل الطبيعي",
-    image: baklavaImage,
+    image: baklavaCashewImage,
   },
   {
     id: 8,
     name: "كنافة بالمانجو",
     description: "كنافة معاصرة بنكهة المانجو الطازجة",
-    image: kunafaImage,
+    image: kunafaMangoImage,
   },
   {
     id: 9,
     name: "معمول بالجوز",
     description: "معمول لذيذ محشو بالجوز المطحون والقرفة",
-    image: maamoulImage,
+    image: maamoulWalnutImage,
   },
   {
     id: 10,
     name: "بقلاوة باللوز",
     description: "بقلاوة شهية محشوة باللوز المحمص والعسل",
-    image: baklavaImage,
+    image: baklavaAlmondImage,
   },
   {
     id: 11,
     name: "كنافة بالشوكولاتة",
     description: "كنافة عصرية بحشوة الشوكولاتة البلجيكية",
-    image: kunafaImage,
+    image: kunafaChocolateImage,
   },
   {
     id: 12,
     name: "معمول بالسمسم",
     description: "معمول تقليدي بحشوة السمسم المحمص والعسل",
-    image: maamoulImage,
+    image: maamoulSesameImage,
   },
 ];
 
