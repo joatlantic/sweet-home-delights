@@ -13,7 +13,14 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        cairo: ['Cairo', 'sans-serif'],
+      },
       colors: {
+        golden: "hsl(var(--golden))",
+        "golden-dark": "hsl(var(--golden-dark))",
+        "warm-cream": "hsl(var(--warm-cream))",
+        "brown-light": "hsl(var(--brown-light))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
