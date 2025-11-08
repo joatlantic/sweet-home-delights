@@ -19,8 +19,10 @@ export default {
       colors: {
         golden: "hsl(var(--golden))",
         "golden-dark": "hsl(var(--golden-dark))",
+        "golden-light": "hsl(var(--golden-light))",
         "warm-cream": "hsl(var(--warm-cream))",
         "brown-light": "hsl(var(--brown-light))",
+        burgundy: "hsl(var(--burgundy))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
