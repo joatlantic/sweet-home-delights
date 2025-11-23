@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import { Card, CardContent } from "@/components/ui/card";
+import Footer from "@/components/Footer";
 import baklavaImage from "@/assets/baklava.jpg";
 import kunafaImage from "@/assets/kunafa.jpg";
 import maamoulImage from "@/assets/maamoul.jpg";
@@ -92,7 +93,7 @@ const ProductsPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+
       <section className="py-24 bg-gradient-to-br from-golden-light/30 via-background to-secondary/20">
         <div className="container px-4">
           <div className="text-center mb-16">
@@ -109,8 +110,8 @@ const ProductsPage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto">
             {products.map((product) => (
-              <Card 
-                key={product.id} 
+              <Card
+                key={product.id}
                 className="group overflow-hidden hover:shadow-2xl hover:shadow-primary/20 transition-all duration-500 hover:-translate-y-3 border-2 border-transparent hover:border-primary/30 bg-card/80 backdrop-blur-sm"
               >
                 <div className="aspect-square overflow-hidden relative">
@@ -137,6 +138,7 @@ const ProductsPage = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
